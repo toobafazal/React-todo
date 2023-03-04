@@ -24,7 +24,7 @@ const Todo = () => {
       
         let editItem = (e,i) =>{
           let newValue = prompt("Edit the text", e);
-          list[i].text = newValue;
+          list[i].item = newValue;
           setList([...list])
           };
       let deleteAll = () => {
